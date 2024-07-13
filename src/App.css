@@ -172,8 +172,9 @@ header nav ul li a:focus{
   }
   
   header nav{
+    transform: translate(100%,7%);
    
-    transform: translateX(200%);
+   
     position: fixed;
     z-index: 10;
 
@@ -187,8 +188,8 @@ header nav ul li a:focus{
   
   }
   header nav.active{
-    
-    transform: translate(100%,7%);
+    transform: translateX(200%);
+   
     
    
   }
